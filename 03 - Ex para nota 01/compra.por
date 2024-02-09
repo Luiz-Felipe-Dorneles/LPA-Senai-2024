@@ -24,7 +24,9 @@ programa
           leia(preco)
           escreva("\n\n")
 
-          escreva("Parabéns! ",nome,". Você adquiriu: ",produto,". Por apenas: R$29,99! ")
+          escreva("Parabéns! ",nome,". Você adquiriu: ",produto,". Por apenas: R$29,99! Vamos entrar em contato pelo telefone: ", telefone,".")
+          escreva(" Para informar a data da entrega no endereço: ", endereco, ".")
+          
           
 
           
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 572; 
+ * @POSICAO-CURSOR = 812; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
