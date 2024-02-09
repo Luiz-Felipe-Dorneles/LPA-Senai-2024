@@ -22,7 +22,7 @@ programa
       escreva("Quantas coxinhas você deseja? ")
       leia(qtd_coxinha)
 
-      escreva("Quer algo para beber? ")
+      escreva("Quer quantos refris? ")
       leia(qtd_refri)
 
       escreva("Quer alguma sobremesa? ")
@@ -43,12 +43,12 @@ programa
 
        limpa()
 
-       escreva("Bem vindo a Kantina do SENAI")
-       escreva("============================\n")
+       escreva("Bem vindo a Kantina do SENAI\n")
+       escreva("===============================\n")
        escreva("Você comprou: ",qtd_coxinha, " coxinhas.\n")
        escreva("Você comprou: ",qtd_refri, " refris.\n")
        escreva("Você comprou: ", qtd_sobremesa, " sobremesa\n")
-       escreva("==============================\n")
+       escreva("===============================\n")
        escreva("Total da compra: R$ ",tot_total, "\n")
         
 		
@@ -59,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 980; 
+ * @POSICAO-CURSOR = 1098; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
