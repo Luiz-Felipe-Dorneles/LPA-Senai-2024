@@ -13,12 +13,12 @@ programa
 		escreva("Digite o 1º número: ")
 		leia(n1)
 
-		escreva("Digite o 2º número")
+		escreva("Digite o 2º número: ")
 		leia(n2)
 
 		escreva("\n")
 
-		escreva("Digite a operação desejada: (+ - * /)")
+		escreva("Digite a operação desejada (+ - * /):  ")
 		leia(operador)
 
 		/*
@@ -28,22 +28,27 @@ programa
 
 		 	resultado = n1 + n2
 		 	
+		 	
 		 }
 
 		 se (operador == '-'){
 
 		 	resultado = n1 - n2
+		 	
 		 }
 
 		 se (operador == '*'){
 
-		 	resultado = n1 - n2
+		 	resultado = n1 * n2
+		 	
 		 }
 
 		 se (operador == '/'){
 
-		 	resultado = n1 - n2
+		 	resultado = n1 / n2
+		 	
 		 }
+		 escreva("O resultado da sua operação matemática é  ", resultado, "\n\n")
 
 		
 	}
@@ -53,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 590; 
+ * @POSICAO-CURSOR = 684; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
