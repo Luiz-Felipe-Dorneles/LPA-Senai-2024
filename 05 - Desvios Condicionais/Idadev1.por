@@ -1,3 +1,11 @@
+/*  Algoritmo: Idade
+ *  Autor: @Luiz Felipe Dorneles
+ *  Data:16/02/2024A
+ */
+
+
+
+
 programa
 {
 	
@@ -31,12 +39,13 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 304; 
+ * @POSICAO-CURSOR = 601; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
