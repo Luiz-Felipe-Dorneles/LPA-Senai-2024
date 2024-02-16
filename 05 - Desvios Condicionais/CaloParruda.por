@@ -27,8 +27,7 @@ programa
 		 se (operador == '+'){
 
 		 	resultado = n1 + n2
-		 	
-		 	
+		 	  	
 		 }
 
 		 se (operador == '-'){
@@ -48,7 +47,20 @@ programa
 		 	resultado = n1 / n2
 		 	
 		 }
-		 escreva("O resultado da sua operação matemática é  ", resultado, "\n\n")
+		
+		 se (operador == '+' ou operador == '-' ou operador == '*' ou operador == '/')
+		 { 
+		 	escreva(n1, " ",operador, " ", n2, " = ", resultado, "\n\n")
+		 }
+		senao{
+			escreva("Operador inválido! Escolha +, -, * ou /. \n")
+		}
+		
+		 escreva("\n")
+		 
+		 
+		 
+		 
 
 		
 	}
@@ -58,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 684; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
