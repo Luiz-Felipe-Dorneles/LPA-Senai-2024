@@ -18,6 +18,7 @@ programa
 		para( inteiro p = 0; p < 10; p++)
 		{
 			escreva(vetor[p], " ")
+			util.aguarde(400)
 		}
 		//vamo exibir os valores na ordem inversa
 		
@@ -25,6 +26,7 @@ programa
 		para( inteiro p = 9; p >= 0; p--)
 		{
 			escreva(vetor[p], " ")
+			util.aguarde(400)
 		}
 		
 		
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 525; 
+ * @POSICAO-CURSOR = 662; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
