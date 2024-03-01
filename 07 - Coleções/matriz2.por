@@ -42,14 +42,17 @@ programa
 			para(inteiro j = 0; j < u.numero_colunas(coordenadas); j ++)
 			{
 				real coordenada = coordenadas[i][j]
+				
 				se(coordenada >= 0.0 )
 				{
 					escreva(" ")
 				}
+				
 				se(coordenada < 10.0 e coordenadas[i][j] > -10.0)
 				{
 					escreva(" ")
 				}
+				
 				se (coordenada < 100.0 e coordenadas[i][j] > -100.0)
 				{
 					escreva(" ")
@@ -67,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 987; 
+ * @POSICAO-CURSOR = 1010; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
