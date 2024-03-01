@@ -30,18 +30,32 @@ programa
 					coordenadas [i][j] = mat.arredondar(u.sorteia(-18000, 18000), 2)/100.0
 				}
 			}
-			
 		}
 		
 	}
 	funcao exibir(real coordenadas[][])
 	{
-		escreva("Lat\tLong\n")
+		escreva("  Lat\t Long\n")
+		escreva("  =====\t =====\n")
 		para(inteiro i = 0; i < u.numero_linhas(coordenadas); i ++)
 		{
 			para(inteiro j = 0; j < u.numero_colunas(coordenadas); j ++)
 			{
-				escreva(coordenadas[i][j], "\t")
+				real coordenada = coordenadas[i][j]
+				se(coordenada >= 0.0 )
+				{
+					escreva(" ")
+				}
+				se(coordenada < 10.0 e coordenadas[i][j] > -10.0)
+				{
+					escreva(" ")
+				}
+				se (coordenada < 100.0 e coordenadas[i][j] > -100.0)
+				{
+					escreva(" ")
+				}
+				escreva(coordenada, "\t")
+				
 			}
 			escreva("\n")	
 		}	
@@ -53,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 645; 
+ * @POSICAO-CURSOR = 987; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
