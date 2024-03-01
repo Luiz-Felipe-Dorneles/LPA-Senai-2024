@@ -36,6 +36,7 @@ programa
 	}
 	funcao exibir(real coordenadas[][])
 	{
+		escreva("Lat\tLong\n")
 		para(inteiro i = 0; i < u.numero_linhas(coordenadas); i ++)
 		{
 			para(inteiro j = 0; j < u.numero_colunas(coordenadas); j ++)
@@ -52,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 823; 
+ * @POSICAO-CURSOR = 645; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
