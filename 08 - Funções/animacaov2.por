@@ -8,7 +8,7 @@ programa
 		inteiro coluna_inicial = 0
 		inteiro passos = 10
 		animar(coluna_inicial, passos)
-		
+	 	
 		
 	}
 	funcao animar(inteiro coluna_inicial, inteiro passos)
@@ -24,8 +24,8 @@ programa
 				u.aguarde(500)
 			}
 		}
-	limpa()
-	desenhar_lagarta(coluna_final, 0)
+	 limpa()
+	 desenhar_lagarta(coluna_final, 0)
 	}
 	
 
@@ -67,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 493; 
+ * @POSICAO-CURSOR = 118; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
