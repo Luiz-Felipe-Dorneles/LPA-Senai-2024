@@ -4,9 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro num
-		inteiro f1 = 1
-		inteiro f2 = 1
-		inteiro f3
+		inteiro f[] = {1, 1, 0 }
 		
 		escreva("Insira a quantidade de elementos da sequência de FiBonacci: ")
 		leia(num)
@@ -15,10 +13,10 @@ programa
 
 		para( inteiro i = 1; i <= num; i++)
 		{
-			f3 = fibonacci(f1, f2)
-			escreva( f3, " ")
-			f1 = f2
-			f2 = f3
+			f[i + 2] = fibonacci(f1, f2)
+			escreva( f[i + 2], " ")
+			f[i] = f[i+1]
+			f[i + 1] = f[i + 2]
 		}
 	}
 	funcao inteiro fibonacci (inteiro f1, inteiro f2)
@@ -33,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 377; 
+ * @POSICAO-CURSOR = 250; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
