@@ -3,11 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		
+		inteiro r = 2
+		escreva("O valor de s é ", func( r ), "\n")
+		escreva("O valor de r é ", r)
 	}
-	funcao func( inteiro s)
+	funcao  inteiro func( inteiro &s)
 	{
-		
+		s = s + 1
+		retorne s
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 75; 
+ * @POSICAO-CURSOR = 168; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
