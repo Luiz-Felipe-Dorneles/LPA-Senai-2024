@@ -24,12 +24,20 @@ inclua biblioteca Graficos --> g
 			
 			
 			g.definir_tamanho_texto(20)
-			g.desenhar_texto(5, 30,  "Digite (I) para aparecer um retangulo preto na tela.")
+			g.desenhar_texto(5, 30,  "Digite (I) para aparecer um retangulo na tela.")
+			g.desenhar_texto(5, 50,  "Digite (O) para aparecer dois retangulos na tela.")
 
 			se (t.tecla_pressionada(t.TECLA_I))
 			{
-				g.desenhar_retangulo(5, 70, 100, 50, verdadeiro, verdadeiro)
+				g.desenhar_retangulo(5, 85, 100, 50, verdadeiro, verdadeiro)
 			}
+			se (t.tecla_pressionada(t.TECLA_O))
+			{
+				g.desenhar_retangulo(5, 85, 100, 50, verdadeiro, verdadeiro)
+				g.definir_cor(g.criar_cor(10, 250, 250))
+				g.desenhar_retangulo(5, 150, 100, 50, verdadeiro, verdadeiro)
+			}
+			
 			
 			
 			g.definir_cor(g.criar_cor(255, 60, 130))
@@ -54,7 +62,7 @@ inclua biblioteca Graficos --> g
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 655; 
+ * @POSICAO-CURSOR = 643; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
